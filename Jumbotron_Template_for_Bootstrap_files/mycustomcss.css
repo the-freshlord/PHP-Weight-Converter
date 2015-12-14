@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-inverse {
+    background-color: black;
+    color: white;
+}
+
+/* unvisited link */
+a.navbar-brand:link {
+    color: white;
+}
+
+/* visited link */
+a.navbar-brand:visited {
+    color: white;
+}
+
+/* mouse over link */
+a.navbar-brand:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+}
+
+/* selected link */
+a.navbar-brand:active {
+    color: white;
+}
+
+.jumbotron {
+    background-color: black;
+    color: white;
+}
